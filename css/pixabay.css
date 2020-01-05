@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+
+    width: 15%;
+    float: left;
+    background: url('../img/sprites.png');
+    height: 50px;
+    background-position: 45px 50px;
+}
+
+.leftmenu{
+    
+    width:42%;
+    float: left;
+}
+.rightmenu{
+    
+    width: 42%;
+    float: right;
+    text-align: right;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.leftmenu>ul>li>a , .rightmenu>ul>li>a{
+    color:white;
+    text-decoration:none;
+    padding: 10px;
+   display: inline-block;
+   text-transform: capitalize;
+}
+.leftmenu>ul>li ,.rightmenu>ul>li{
+    display: inline-block;
+}
+#headerBlock{
+   /* padding: 13px;*/
+    Z-index: 1;
+    position: relative;
+}
+
+/*.rightmenu>ul>li:nth-child(4) {
+    background: blue;
+}*/
+
+.last a{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 4px 20px !important;
+}
+.rightmenu>ul>li:nth-child(2)::after{
+    content:'<';
+    display:inline-block;
+    transform: rotate(-90deg);
+    color:white;
+}
+/*slider section css here*/
+#slidersection{
+    color: white;
+    background:url(../img/10-14-50-567_1440x480.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height: 360px;
+    text-align: center;
+   /* position: absolute;*/
+    top: 0%;
+    padding-top: 140px;   
+}
+#slidersection>header>h1{
+    font-size: 32px;
+}
+#slidersection>footer>form>input {
+    padding: 22px;
+    width: 60%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.searchIcon{
+    position: relative;
+}
+.searchIcon i{
+    position: absolute;
+    color: #1119;
+    left:1px;
+    top: 4px;
+    font-size: 20px;
+    z-index: 1;
+}
+#slidersection>footer>form>input::placeholder{
+    padding: 0px,30px;
+    font-size:16px;
+    position: relative;
+    top: 5px;
+}
+
+.imagesText{
+    position: relative;
+}
+
+.imagesText>select{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border: none;
+}
+
+.imagesText>select>option{
+    padding: 10px !important;
+    display: inline-block !important;
+}
+
+.image1{
+    width: 31.5%;
+    float: left;
+    margin: 0 7px;
+}
+.image2{
+    width: 31.5%;
+    float: left;
+    margin: 0 7px;
+}
+.image3{
+    width: 16%;
+    float: left;
+    margin: 0 7px;
+}
+.image4{
+    width: 16%;
+    float: left;
+    margin: 0 7px;
+}
+#imagesSection img{
+    width: 100%;
+    height: 300px;
+}
+
+#imagesSection {
+    width: 97%;
+    margin: 0 auto;
+}
+
